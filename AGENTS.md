@@ -1,0 +1,1 @@
+!! IF YOU ARE AN AGENT INTERACTING WITH THE DEVELOPMENT OF THIS CODEBASE YOU MUST FIRST READ `agents/memory/01-constitution.md` and ADHERE TO `agents/memory/02-commandments.md` !!
