@@ -12,7 +12,7 @@
 6. Do not assume; follow user requirements exactly.
 
 ## Operational Rules
-- Always load the content of `02-commandments.md` at the start of new contexts.
+- Always load the content of `01-constitution.md`, `02-commandments.md` and `03-architecture.md` at the start of new contexts.
 - Always create required files in the correct locations (repo + `.codex`).
 - Never modify user files unless explicitly requested.
 - Fail loudly with actionable errors; do not silently skip work.
@@ -20,7 +20,9 @@
 - Ensure installation is one-step: `curl` → `chmod` → `./install.sh`.
 - If requirements are unclear or missing, ask the user for clarification before proceeding.
 - Log memory of application components in `agents/memory/03-architecture.md`.
-- When troubleshooting, create an RCA report in `agents/memory/04-rcas.md`.
+- Log the high-level roadmap of milestones to completion in `agents/memory/04-roadmap.md`
+- When troubleshooting, create an RCA report in `agents/memory/05-rcas.md`.
+- When asked to create questionnares or assessments, save them sequentially in `agents/assessments/`
 - When running shell commands for troubleshooting or verification, follow the user's execution preferences (e.g., Makefile-only, Docker-only, `.venv`-only).
 
 ## MVP Guardrails

@@ -25,7 +25,7 @@ The next section will be the template when generating `02-commandments.md`. You 
 - _Define execution and delivery expectations._
 - If requirements are unclear or missing, ask the user for clarification before proceeding.
 - Log memory of application components in `agents/memory/03-architecture.md`.
-- When troubleshooting, create an RCA report in `agents/memory/04-rcas.md`.
+- When troubleshooting, create an RCA report in `agents/memory/05-rcas.md`.
 - When running shell commands for troubleshooting or verification, follow the user's execution preferences (e.g., Makefile-only, Docker-only, `.venv`-only).
 
 ## MVP Guardrails
